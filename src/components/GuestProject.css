@@ -1,0 +1,84 @@
+/* Main Page Styles */
+.guest-project-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f9f9ff 0%, #f0e9ff 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.guest-project-container {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(106, 72, 170, 0.1);
+  padding: 40px;
+  width: 100%;
+  max-width: 700px;
+}
+
+/* Header Styles */
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  color: #6a48aa;
+  margin-bottom: 15px;
+  font-size: 32px;
+}
+
+.subtitle {
+  color: #666;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Create Project Card */
+.create-card {
+  background: #f9f5ff;
+  border: 2px dashed #c7b1f4;
+  border-radius: 12px;
+  padding: 50px 30px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 30px;
+}
+
+.create-card:hover {
+  background: #f0e9ff;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(106, 72, 170, 0.1);
+}
+
+.plus-icon {
+  font-size: 60px;
+  color: #6a48aa;
+  line-height: 1;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+
+.create-card h2 {
+  color: #6a48aa;
+  margin: 0;
+  font-size: 24px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .guest-project-container {
+    padding: 30px 20px;
+  }
+
+  .header h1 {
+    font-size: 28px;
+  }
+
+  .create-card {
+    padding: 40px 20px;
+  }
+}
